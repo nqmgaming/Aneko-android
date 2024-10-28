@@ -37,14 +37,14 @@ import android.widget.Toast;
 import androidx.core.app.NotificationCompat;
 
 public class AnimationService extends Service {
-    public static final String ACTION_START = "org.tamanegi.aneko.action.START";
-    public static final String ACTION_STOP = "org.tamanegi.aneko.action.STOP";
+    public static final String ACTION_START = "com.nqmgaming.aneko.action.START";
+    public static final String ACTION_STOP = "com.nqmgaming.aneko.action.STOP";
     public static final String ACTION_TOGGLE =
-            "org.tamanegi.aneko.action.TOGGLE";
+            "com.nqmgaming.aneko.action.TOGGLE";
 
     public static final String ACTION_GET_SKIN =
-            "org.tamanegi.aneko.action.GET_SKIN";
-    public static final String META_KEY_SKIN = "org.tamanegi.aneko.skin";
+            "com.nqmgaming.aneko.action.GET_SKIN";
+    public static final String META_KEY_SKIN = "com.nqmgaming.aneko.skin";
 
     public static final String PREF_KEY_ENABLE = "motion.enable";
     public static final String PREF_KEY_VISIBLE = "motion.visible";

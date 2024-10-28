@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Aneko"
 include(":app")
- 
+include(":skin")

@@ -33,10 +33,10 @@
             android:exported="true"
             android:label="@string/skin_name_neko">
             <intent-filter>
-                <action android:name="org.tamanegi.aneko.action.GET_SKIN" />
+                <action android:name="com.nqmgaming.aneko.action.GET_SKIN" />
             </intent-filter>
             <meta-data
-                android:name="org.tamanegi.aneko.skin"
+                android:name="com.nqmgaming.aneko.skin"
                 android:resource="@xml/neko" />
         </activity>
         <receiver
